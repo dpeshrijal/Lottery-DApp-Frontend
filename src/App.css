@@ -110,6 +110,10 @@
     color: white;
 }
 
+.enter-lottery:hover {
+    background-color: #6bc0c0;
+}
+
 .pick-winner {
     position: absolute;
     bottom: 20px;
