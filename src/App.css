@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+.main-div {
+    width: 100%;
+    height: 100vh;
+    background: #dff2f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+    position: absolute;
+    color: #088F8F;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: 20px;
+    top: -5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.connect-wallet {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: #088F8F;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    touch-action: manipulation;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.connect-wallet:hover {
+    background-color: #F082AC;
 }
 
-.App-link {
-  color: #61dafb;
+.center-div {
+    width: 54vh;
+    height: 80vh;
+    overflow: auto;
+    background-color: #f4f4f4;
+    box-shadow: 10px 10px 35px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.status {
+    position: absolute;
+    top: 10px;
+    color: #088F8F;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.title {
+    color: white;
+    background: transparent;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #088F8F;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3)
+}
+
+.lottery-balance {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.balance-amount {
+    height: 180px;
+    width: 180px;
+    line-height: 75px;
+    margin-left: 90px;
+    border-radius: 100%;
+    border: 2px solid #088F8F;
+    background-color: white;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.enter-lottery {
+    width: 90%;
+    height: 20%;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #088F8F;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+}
+
+.pick-winner {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: #088F8F;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.pick-winner:hover {
+    background-color: #F082AC;
+}
+
+.notice {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.prev-winner {
+    position: absolute;
+    top: 94vh;
+
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #088F8F;
+
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+
 }
