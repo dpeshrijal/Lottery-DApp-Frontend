@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Lottery-DApp-Frontend/static/css/main.29d0ad49.css",
+    "main.css": "/Lottery-DApp-Frontend/static/css/main.5af398b7.css",
     "main.js": "/Lottery-DApp-Frontend/static/js/main.8746dc58.js",
     "index.html": "/Lottery-DApp-Frontend/index.html",
-    "main.29d0ad49.css.map": "/Lottery-DApp-Frontend/static/css/main.29d0ad49.css.map",
+    "main.5af398b7.css.map": "/Lottery-DApp-Frontend/static/css/main.5af398b7.css.map",
     "main.8746dc58.js.map": "/Lottery-DApp-Frontend/static/js/main.8746dc58.js.map"
   },
   "entrypoints": [
-    "static/css/main.29d0ad49.css",
+    "static/css/main.5af398b7.css",
     "static/js/main.8746dc58.js"
   ]
 }
