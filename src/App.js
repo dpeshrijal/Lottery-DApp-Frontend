@@ -184,10 +184,12 @@ function App() {
     <div className="main-div">
       <h1 className="logo">Lottery DApp</h1>
       <button className="connect-wallet" onClick={connectWallet}>{connectText}</button>
+
       <h2 className="status">{displayText}</h2>
       <div className="center-div">
         <h1 className="title">Let's Play!</h1>
         <h1 className="lottery-balance">Lottery Balance <p className="balance-amount">{balance}<br />ETH</p></h1>
+        <h2 className="network-name">You need Rinkeby ETH!</h2>
         <button className="enter-lottery" onClick={enterLottery}>Enter Lottery</button>
         <p className="notice">*Fee to enter the lottery is 0.01 ETH</p>
 

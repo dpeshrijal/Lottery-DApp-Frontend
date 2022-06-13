@@ -67,6 +67,8 @@
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+
 .title {
     color: white;
     background: transparent;
@@ -99,11 +101,18 @@
 
 }
 
+.network-name {
+    margin-top: -40px;
+    color: #088F8F;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .enter-lottery {
     width: 90%;
     height: 20%;
     cursor: pointer;
     font-size: 30px;
+    margin-top: -10px;
     background-color: #088F8F;
     border-radius: 10px;
     border-color: transparent;
@@ -153,6 +162,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-top: 3.5px
 }
 
 .prev-winner {
