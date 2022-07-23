@@ -5,7 +5,7 @@ import "./App.css"
 
 function App() {
 
-  const contractAddress = "0xAF8bD6027E37231e4BCCa892b31A9d73eb027FD1";
+  const contractAddress = "0xC1a116de09a0CD49170CbcdE03dDA31e93608eC0";
   const ABI = abi.abi;
 
   const [currentAccount, setCurrentAccount] = React.useState("");
